@@ -21,7 +21,7 @@ fn main() raises:
     m.dump_report()
 
 fn read_input() raises -> String:
-    with open("../../input/1.txt", "r") as f:
+    with open("../../../input/1.txt", "r") as f:
         return f.read()
 
 @parameter

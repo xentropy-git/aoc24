@@ -1,6 +1,7 @@
 [project]
 authors = ["xentropy <claponsie@gmail.com>"]
-channels = ["conda-forge", "https://conda.modular.com/max"]
+#channels = ["conda-forge", "https://conda.modular.com/max"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
 description = "Add a short description here"
 name = "mojo"
 platforms = ["linux-64"]
@@ -9,4 +10,4 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-max = ">=24.5.0,<25"
+max = ">=24.6.0.dev2024120705,<25"
